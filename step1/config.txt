@@ -1,0 +1,3 @@
+bit_rate = 115200
+data_bit = 8
+check_bit = 70
