@@ -6,6 +6,34 @@
 # @File    : python_string.py
 # @Software: LearnPython
 # @description:
+# import psutil as psutil
+#
+#
+# def judgeprocess(processname):
+#     pl = psutil.pids()
+#     for pid in pl:
+#         if psutil.Process(pid).name() == processname:
+#             print(pid)
+#             break
+#     else:
+#         print("not found")
+
+
+process_info = 'root      7596     1 25 10:42 ?        01:01:56 ./DataHub -c config.txt\nroot      7598     1 22 ' \
+               '10:42 ?        00:55:40 ./LocEngine -c config.txt '
+
+
+if 'LocEngine' in process_info:
+    print('LocEngine is exsit')
+
+
+if 'terminal' not in process_info:
+    print('terminal not is exsit')
+
+if 'DataHub' in process_info:
+    print('DataHub is exsit')
+
+exit(0)
 
 str_tmp = '1,2,3,4,5, 6,  7'
 str_list = str_tmp.split(',')

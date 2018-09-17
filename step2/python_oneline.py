@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_oneline.py by xianhu
+python_oneline.py by hdf
 """
 
 

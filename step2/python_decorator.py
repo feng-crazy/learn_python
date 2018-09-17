@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_decorator.py by xianhu
+python_decorator.py by hdf
 """
 
 import functools

@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_restful_api.py by xianhu
+python_restful_api.py by hdf
 """
 
 import sqlalchemy

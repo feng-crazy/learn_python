@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_wechat.py by xianhu
+python_wechat.py by hdf
 主要包括如下功能：
 (1) 自动提醒群红包
 (2) 自动监测被撤回消息

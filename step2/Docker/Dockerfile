@@ -1,10 +1,10 @@
-# Dockerfile by xianhu: build a docker image
+# Dockerfile by hdf: build a docker image
 # usage: docker build -t user/centos .
 # usage: docker run -dt --privileged user/centos
 # usage: docker exec -it containerid /bin/bash
 
 FROM centos:7
-MAINTAINER xianhu <qixianhu@qq.com>
+MAINTAINER hdf <qihdf@qq.com>
 
 # change system environments
 ENV LANG en_US.UTF-8

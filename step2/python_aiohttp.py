@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_aiohttp.py by xianhu
+python_aiohttp.py by hdf
 """
 
 import asyncio

@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_lda.py by xianhu
+python_lda.py by hdf
 """
 
 import os

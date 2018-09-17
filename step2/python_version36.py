@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_version36.py by xianhu
+python_version36.py by hdf
 """
 
 import asyncio

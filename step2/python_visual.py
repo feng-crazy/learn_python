@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_visual.py by xianhu
+python_visual.py by hdf
 """
 
 import numpy as np

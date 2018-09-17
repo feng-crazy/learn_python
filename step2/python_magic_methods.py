@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_magic_methods.py by xianhu
+python_magic_methods.py by hdf
 """
 
 

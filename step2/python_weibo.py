@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_weibo.py by xianhu
+python_weibo.py by hdf
 """
 
 import re

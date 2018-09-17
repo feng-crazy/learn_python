@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_spider.py by xianhu
+python_spider.py by hdf
 """
 
 import urllib.error
@@ -24,7 +24,7 @@ response = urllib.request.urlopen(request, timeout=10)
 
 
 # 发送数据，即在Request()中添加data参数
-data = urllib.parse.urlencode({"act": "login", "email": "xianhu@qq.com", "password": "123456"})
+data = urllib.parse.urlencode({"act": "login", "email": "hdf@qq.com", "password": "123456"})
 request1 = urllib.request.Request(url, data=data)           # POST方法
 request2 = urllib.request.Request(url+"?%s" % data)         # GET方法
 response = urllib.request.urlopen(request, timeout=10)

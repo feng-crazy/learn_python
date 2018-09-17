@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_coroutine.py by xianhu
+python_coroutine.py by hdf
 """
 
 import asyncio

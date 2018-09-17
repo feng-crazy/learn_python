@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_thread_multiprocee.py by xianhu
+python_thread_multiprocee.py by hdf
 """
 
 import time

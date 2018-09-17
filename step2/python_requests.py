@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_requests.py by xianhu
+python_requests.py by hdf
 """
 
 import requests.adapters

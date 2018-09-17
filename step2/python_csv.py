@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_csv.py by xianhu
+python_csv.py by hdf
 """
 
 import csv

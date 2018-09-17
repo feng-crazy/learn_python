@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-python_metaclass.py by xianhu
+python_metaclass.py by hdf
 """
 
 
@@ -31,7 +31,7 @@ def hello(self):
     return
 
 Foo = type("Foo", (object,), {"__init__": init, "hello": hello, "cls_var": 10})
-foo = Foo("xianhu")
+foo = Foo("hdf")
 print(foo.hello())
 print(Foo.cls_var)
 
@@ -44,7 +44,7 @@ print(type.__class__)
 class Author(type):
     def __new__(mcs, name, bases, dict):
         # 添加作者属性
-        dict["author"] = "xianhu"
+        dict["author"] = "hdf"
         return super(Author, mcs).__new__(mcs, name, bases, dict)
 
 
