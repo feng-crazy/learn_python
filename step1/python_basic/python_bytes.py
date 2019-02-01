@@ -9,6 +9,7 @@
 
 status = False
 print(status)
+
 cmd_data = [0x00 for x in range(0, 22)]
 cmd_data[0:3] = [0, 1, 3]
 cmd_data = bytes(cmd_data)
