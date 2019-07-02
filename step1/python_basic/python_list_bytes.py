@@ -20,7 +20,7 @@
 tmp_list = [i for i in range(0, 16)]
 tmp_str = 'abc\0'
 tmp_str_list = list(map(ord, tmp_str))
-# print('tmp_str_list:', list(tmp_str_list))
+print('tmp_str_list:', list(tmp_str_list))
 tmp_list += tmp_str_list
 print('tmp_list:', tmp_list)
 

@@ -11,6 +11,19 @@ import shutil
 from configobj import ConfigObj
 import os
 config_obj = ConfigObj('termConfig', encoding='UTF8')
+config_obj['TERM_NAME'] = 'hdf_123'
+config_obj.write()
+exit(0)
+# if 'TERM_NAME' not in config_obj:
+#     print('TERM_NAME not in config')
+# else:
+#     term_name = config_obj['TERM_NAME']
+#     if term_name != '':
+#         print('term_name !=:', term_name)
+#     else:
+#         print('term_name is null')
+# exit(0)
+
 report_ip_addr_list = config_obj['REMOTE_MONITOR_ADDR']
 report_tcp_port_list = config_obj['REMOTE_MONITOR_PORT']
 

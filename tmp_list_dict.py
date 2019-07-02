@@ -8,6 +8,12 @@
 # @description: 
 
 
+tmp_map = {}
+tmp_map['id'] = '1231354'
+print(tmp_map)
+
+exit(0)
+
 tmp_list = [1, 2, 3, 4, 5, 6, 7, 8]
 # tmp_list = []
 # tmp_list.insert(0, 9)

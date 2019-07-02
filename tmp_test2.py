@@ -48,3 +48,4 @@ for i in x:
         x.remove(i)
         print(x)
 print(x)
+

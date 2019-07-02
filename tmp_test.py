@@ -7,7 +7,27 @@
 # @Software: learn_python
 # @description:
 
+import math
 
+tmp_sqrt = math.sqrt(0.09)
+print(tmp_sqrt)
+exit()
+
+tmp_str = '0123456789'
+
+print(len(tmp_str))
+
+print(tmp_str[0:1])
+print(tmp_str[0:4])
+print(tmp_str[4:9])
+exit(0)
+
+tmp_dict = {1: '1', 2: '2', 3: '3', 4: '4'}
+print(tmp_dict)
+print(tmp_dict.keys(), type(tmp_dict.keys()))
+tmp_list = list(tmp_dict.keys())
+print(tmp_list, type(tmp_list))
+exit(0)
 d = 56.103564949118876
 if d < 13.00:
     print(d)
